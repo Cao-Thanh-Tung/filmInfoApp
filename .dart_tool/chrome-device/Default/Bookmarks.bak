@@ -1,0 +1,80 @@
+{
+   "checksum": "9c9fa2b3f52ac2aae5e7de0d09b73ca3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13286309179540760",
+               "date_last_used": "0",
+               "guid": "e50bcf9e-fe9d-443b-bcec-d813c048151b",
+               "id": "8",
+               "name": "Dell Auction",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dellauction.com/"
+            }, {
+               "date_added": "13286309179545747",
+               "date_last_used": "0",
+               "guid": "efe39687-7549-4c6f-a676-5357c89dcf5e",
+               "id": "10",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/"
+            }, {
+               "date_added": "13286309179551731",
+               "date_last_used": "0",
+               "guid": "8a0c1fe8-9e5d-4d8a-a453-c4d6b6a3d934",
+               "id": "12",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/support/home"
+            } ],
+            "date_added": "13366180201501108",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "5fad8e5c-e60a-45a8-973b-becdcbcbe6bf",
+            "id": "7",
+            "name": "Dell",
+            "source": "import_fre",
+            "type": "folder"
+         } ],
+         "date_added": "13366180197819986",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13366180197819989",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13366180197819990",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCOBLz96QAQAAKg4QABgBIAAoBTAAOABAABIAKhhnY0pKTE13bUExQWlldmFHUmlBcHBRPT1IA6AGDBKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ0M2JiODZlYS0yNzEzLTVhNzMtOTdkMy0wYTAyZjEwYzFhZmMYACAAKAAwkLur48wxOJzEq+PMMUCcxKvjzDFKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGU2Y2EzYTcxLTJlM2MtNTRhNS05YTA5LWI4YTg3ZjQyNzI1NRgAIAAoADCLu6vjzDE4pcOr48wxQKXDq+PMMUocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZjZiMzEwOTUtNjQ3NC01NjFkLWJiMzQtMGVlZmJiNWQ5ODk0GAAgACgAMIy7q+PMMTjHw6vjzDFAx8Or48wxShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKnAQgIEqIBChxlZVlqY0IxZnFyazMxbVFjNUxES0srZFRlck09EiRlNTBiY2Y5ZS1mZTlkLTQ0M2ItYmNlYy1kODEzYzA0ODE1MWIYACABKAEwkPe28I0yOJSQtfCNMkCUkLXwjTJKHHAyR1NGcG42Wi9RUzdMYlR5UllTMXh5UDlmRT1aHiIcd04xd3dETm00SXB5YzFEczRHdTN6WjFldGFjPWUAAAAAEqcBCAcSogEKHERXMCtQQlVxbW9VZ1UxSVUrQ2E1eDdGTUYyTT0SJDVmYWQ4ZTVjLWU2MGEtNDVhOC05NzNiLWJlY2RjYmNiZTZiZhgAIAEoATCP97bwjTI4lJC18I0yQJSQtfCNMkoccVZBSWY4ZnhLbWFsSlFTVFh6eGdPcFhQcmtjPVoeIhxiSDJRV252SUxFSWxYN0tjdEFYSFJwdEtaUTQ9ZQAAAAASqAEIChKjAQocTnd0NmgxR1NWQjRaTGk5SjZwMmNIUzE3SE9VPRIkZWZlMzk2ODctNzU0OS00YzZmLWE2NzYtNTM1N2M4OWRjZjVlGAAgASgBMJH3tvCNMjiUkLXwjTJAlJC18I0yShx1NDBMK1FJbmNIdVFnZThrUCtsOUcvTWlaemc9Wh8iHbtoamxsT0pqOFYzQ1pnRWZUZ0hLYkxLWndpbDA9ZQAAAAASqAEIDBKjAQoccDhqSyszblAyM2xWaVcrc1FtYm56TkhVSm9ZPRIkOGEwYzFmZTgtOWU1ZC00ZDhhLWE0NTMtYzRkNmI2YTNkOTM0GAAgASgBMJL3tvCNMjiUkLXwjTJAlJC18I0yShxpLzVHV28yQ3lHWnhhYzdSbWJkcDdsM3c4Y1k9Wh8iHd1mSHRzd1ZNc0JVSlBSL0tTenpheE1qZUhZSVU9ZQAAAAAwADgA",
+   "version": 1
+}

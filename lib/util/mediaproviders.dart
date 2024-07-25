@@ -1,0 +1,69 @@
+import 'dart:async';
+
+import 'package:my_first_flutter_app/model/cast.dart';
+import 'package:my_first_flutter_app/model/mediaitem.dart';
+import 'package:my_first_flutter_app/util/api_client.dart';
+
+abstract class MediaProvider {
+  Future<List<MediaItem>> loadMedia(String category, {int page = 1}); //bug
+
+  Future<List<Actor>> loadCast(int mediaId);
+
+  Future<dynamic> getDetails(int mediaId);
+
+  Future<List<MediaItem>> getSimilar(int mediaId);
+}
+
+class MovieProvider extends MediaProvider {
+  MovieProvider();
+
+  ApiClient _apiClient = ApiClient();
+
+  @override
+  Future<List<MediaItem>> loadMedia(String category, {int page = 1}) {
+    //bug
+    return _apiClient.fetchMovies(category: category, page: page);
+  }
+
+  @override
+  Future<List<MediaItem>> getSimilar(int mediaId) {
+    return _apiClient.getSimilarMedia(mediaId, type: "movie");
+  }
+
+  @override
+  Future<dynamic> getDetails(int mediaId) {
+    return _apiClient.getMediaDetails(mediaId, type: "movie");
+  }
+
+  @override
+  Future<List<Actor>> loadCast(int mediaId) {
+    return _apiClient.getMediaCredits(mediaId, type: "movie");
+  }
+}
+
+class ShowProvider extends MediaProvider {
+  ShowProvider();
+
+  ApiClient _apiClient = ApiClient();
+
+  @override
+  Future<List<MediaItem>> loadMedia(String category, {int page = 1}) {
+    //bug
+    return _apiClient.fetchShows(category: category, page: page);
+  }
+
+  @override
+  Future<List<MediaItem>> getSimilar(int mediaId) {
+    return _apiClient.getSimilarMedia(mediaId, type: "tv");
+  }
+
+  @override
+  Future<dynamic> getDetails(int mediaId) {
+    return _apiClient.getMediaDetails(mediaId, type: "tv");
+  }
+
+  @override
+  Future<List<Actor>> loadCast(int mediaId) {
+    return _apiClient.getMediaCredits(mediaId, type: "tv");
+  }
+}
